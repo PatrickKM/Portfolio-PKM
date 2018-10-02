@@ -1,0 +1,41 @@
+body {
+    background-image: url(/images/background-portfolio.png);
+    background-size: cover;
+    font-family: "Abel", sans-serif;
+}
+
+.navbar {
+    padding: 15px 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "nevisbold";
+}
+
+.center-nav {
+    text-align: center;
+    word-spacing: 50px;
+}
+
+.right-nav {
+    text-align: right;
+}
+
+.shape {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+    z-index: -1;
+}
+
+.shape::before {
+  border-radius: 100%;
+  position: absolute;
+  background: gray;
+  right: -200px;
+  left: -200px;
+  top: -200px;
+  content: '';
+  bottom: 0;
+    z-index: -1;
+}
