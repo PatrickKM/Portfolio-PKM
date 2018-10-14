@@ -8,9 +8,11 @@ html {
 body {
     font-family: "Abel", sans-serif;
     font-size: 14px;
+    height: 100%;
+    width: 100%;
 }
 
-header {
+#header {
     background: url(/images/background-test.png) no-repeat top center;
     background-size: 100%;
     width: 100%;
@@ -19,14 +21,16 @@ header {
     max-height: 736px;
 }
 
-.header-content-mobile {
+.header-content{
     text-transform: uppercase;
     width: 100%;
     text-align: center;
     padding-top: 40px;
 }
 
-.header-content-desktop {
+
+
+.vertical-header {
     margin: auto;
     display: initial;
 }
