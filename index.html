@@ -6,7 +6,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Your page title here :)</title>
+    <title>Patrick Koo Madsen | Multimediedesiger, Front-end Developer</title>
     <meta name="description" content="">
     <meta name="author" content="Patrick Koo Madsen">
 
@@ -20,11 +20,14 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/hamburgers.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/minify/fonts.min.css">
+    <link rel="stylesheet" href="css/minify/normalize.min.css">
+    <link rel="stylesheet" href="css/minify/skeleton.min.css">
+    <link rel="stylesheet" href="css/minify/style.min.css">
+
+
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,26 +39,172 @@
 
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <header id="header">
-        <section class="header-content">
-            <section class="vertical-header">
+    <header id="header" class="container">
+        <section class="row">
+            <section class="twelve columns">
                 <h1>Patrick Koo Madsen</h1>
-                <p>Multimediedesigner Front-end Developer</p>
+                <h2>Multimediedesigner | Front-end Developer</h2>
             </section>
         </section>
+        <canvas class="background"></canvas>
     </header>
 
-    <main class="container">
+    <section id="expertise" class="container">
         <section class="row">
-            <section class="one-half column" style="margin-top: 25%">
-                <h4>Basic Page</h4>
-                <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+            <section class="six columns responsive-left">
+                <h2>Hvad er mine<br>færdigheder?</h2>
+                <p>Multimediedesigner uddannelsen har lært mig et udvalg af værktøjer til webudvikling, grafisk og video produktion.</p>
+            </section>
+            <section class="six columns responsive-right">
+                <h3>Webudvikling</h3>
+                <p>HTML5, CSS3, JavaScript, Jquery<br>Bootstrap, Skeleton<br>SASS</p>
+                <h3>Adobe Creative Suite</h3>
+                <p>Photoshop, Premiere Pro, After Effects, Experience Design</p>
             </section>
         </section>
-    </main>
+    </section>
 
+      <section id="portfolio" class="container">
+       <h4 id="portfolio-text">Portfolio</h4>
+        <section class="row reverse">
+            <section class="four columns responsive-left mobile-flex">
+                <h2>B2B Encounters: Grundfos</h2>
+                <h3>UX Projekt, 3. semester</h3>
+                <p>Et projekt som vi blev tildelt på 3. semester var i samarbejde med Grundfos. Vi skulle udvikle en prototype (via. Adobe Experience Design) og løse problemer med deres Ecademy og Win & Earn for at kunne tiltrække flere personer til at gøre brug af dem.</p>
+                <a href="https://xd.adobe.com/view/a70402a6-6896-4938-6893-8806f0a6e25d-d135/">Den udviklede prototype kan ses her</a>
+            </section>
+            <section class="eight columns responsive-right">
+                <img src="images/grundfos_prototype.png" alt="Grundfos Prototype">
+            </section>
+        </section>
+    </section>
+  
+   <div class="divider"></div>
+   
+    <section id="portfolio" class="container">
+        <section class="row">
+            <section class="eight columns responsive-left">
+                <img src="images/norsminde_forside.png" alt="Norsminde">
+            </section>
+            <section class="four columns responsive-right">
+                <h2>Norsminde Fiskehus</h2>
+                <h3>2. semester eksamen</h3>
+                <p>Til min 2. semester eksamen har jeg arbejdet med Norsminde Fiskehus som min kunde. Opgavebeskrivelsen gik ud på at man skulle udvikle et koncept, som derefter skal laves til en interaktiv og digital prototype.</p>
+            </section>
+        </section>
+    </section>
 
-    <script src="js/script.js"></script>
+    <div class="divider"></div>
+
+    <section id="portfolio" class="container">
+        <section class="row reverse">
+            <section class="four columns responsive-left mobile-flex">
+                <h2>Video "efterligning"</h2>
+                <h3>Fritidsværk</h3>
+                <p>I min fritid har jeg arbejdet med sangen "Hit the Road Jack" af Throttle og prøvede at efterligne en portion af deres musik video med video karakter fra spillet Overwatch.</p>
+                <a href="https://youtu.be/a_cHddNaKQo?t=39">Den originale kan ses her. (Timestamp: 0.39)</a>
+            </section>
+            <section class="eight columns responsive-right">
+                <video width="100%" controls>
+                    <source src="videos/hit_the_road_jack.mp4" type="video/mp4">
+                </video>
+            </section>
+        </section>
+    </section>
+
+    <div class="divider"></div>
+    
+    <section id="portfolio" class="container">
+        <section class="row">
+            <section class="eight columns responsive-left">
+                <img src="images/hobby_graphics.png" alt="Hobby Graphics">
+            </section>
+            <section class="four columns responsive-right">
+                <h2>Grafisk Design</h2>
+                <h3>Hobby</h3>
+                <p>Som en hobby til min multimediedesigner uddannelse, laver jeg forskellige grafiske produktioner i min fritid.</p>
+            </section>
+        </section>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="cv" class="container">
+        <section class="row">
+            <section class="twelve columns">
+                <h2>Brug for mere<br>Information?</h2>
+                <a class="button button-primary" href="https://www.linkedin.com/in/patrickkoomadsen" target="_blank">Tjek min LinkedIn Profil <i class="fab fa-linkedin fa-lg"></i></a><br>
+                <p>Du kan også <a href="#contact">kontakte</a> mig for en mere dybdegående samtale</p>
+            </section>
+        </section>
+    </section>
+
+    <section id="who-is-this" class="container">
+        <section class="row">
+            <section class="six columns responsive-left contact-text-margin">
+                <h2>Hvem er<br>Patrick Koo Madsen?</h2>
+                <p>Jeg er 22 år gammel, bosat i Randers og læser multimediedesign hos Erhvervsakademi Aarhus. Jeg er i mit 3. semester med et fokus på frontend development.<br><br> Jeg har en stor interesse indenfor webudvikling og design. Desuden er jeg også interesseret i elektronik og bruger min fritid på research omkring nye trends, da internettet er fremtiden.</p>
+            </section>
+
+            <section class="six columns">
+                <img src="images/LinkedInProf.jpg" alt="">
+            </section>
+        </section>
+    </section>
+
+    <section id="contact" class="container">
+        <section class="row">
+            <section class="twelve columns contact-text-margin">
+                <h2>Kom i kontakt</h2>
+                <p>Kontakt mig gerne hvis du vil vide mere om mig, vil samarbejde med mig eller andet indenfor mit arbejdsområde!</p><br>
+                <p>Patrick Koo Madsen<br>Multimediedesigner-studerende</p>
+                <a href="mailto:pkm@koomunication.dk">pkm@koomunication.dk</a><br>
+                <a href="http://koomunication.dk">koomunication.dk</a>
+            </section>
+        </section>
+    </section>
+
+    <footer id="footer" class="container">
+        <section class="row">
+            <section class="twelve columns">
+                <span id="footer-social">
+                    <a href="https://www.facebook.com/pkmadsen"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/patrickkoomadsen"><i class="fab fa-linkedin fa-2x"></i></a>
+                </span>
+                <p>© Patrick Koo Madsen, <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+
+                    </script>
+                </p>
+            </section>
+        </section>
+    </footer>
+
+    <script src="js/particles.min.js"></script>
+    <script>
+        window.onload = function() {
+            Particles.init({
+                selector: '.background',
+                color: '#ffffff',
+                maxParticles: 100,
+                connectParticles: true,
+                sizeVariations: 5,
+                speed: 0.2,
+                responsive: [{
+                    breakpoint: 150,
+                    options: {
+                        maxParticles: 30
+                    }
+                }, {
+                    breakpoint: 100,
+                    options: {
+                        maxParticles: 75
+                    }
+                }]
+            });
+        };
+
+    </script>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
